@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class = 'container'>
+            <section class = "infor">
+                <h2>Thông tin cá nhân</h2>
+                <form action="/submit" method="post">
+                    <label for="hoTen">Họ và tên:</label>
+                    <input type="text" id="hoTen" name="hoTen" required><br><br>
+
+                    <label for="ngaySinh">Ngày sinh:</label>
+                    <input type="date" id="ngaySinh" name="ngaySinh" required><br><br>
+
+                    <label for="maSinhVien">Mã sinh viên:</label>
+                    <input type="text" id="maSinhVien" name="maSinhVien" required><br><br>
+
+                    <label for="lop">Lớp:</label>
+                    <input type="text" id="lop" name="lop" required><br><br>
+
+                    <input type="submit" id="myInput" onclick="redirectToURL()">
+
+                    <script>
+                        function redirectToURL() {
+                        window.location.href = "questions.html";
+                        }
+                    </script>
+                </form>
+
+            </section>
+            <section class></section>
+
+        </div>
+    </main>
+    
+    
+</body>
+</html>

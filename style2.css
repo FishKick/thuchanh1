@@ -1,0 +1,23 @@
+
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+ 
+  h2 {
+    text-align: center;
+    color: #666;
+  }
+  
+  #nhom1, #nhom, #nhom3, #nhom4 {
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  
+  
+  
